@@ -11,7 +11,7 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
 
       <div class="p-4 md:p-12 text-center lg:text-left">
         <!-- Image for mobile view-->
-        <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('/public/image/profile_mobile.jpg')"></div>
+        <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('/public/image/profile_web.jpg')"></div>
 
         <h1 class="text-3xl font-bold pt-8 lg:pt-0">颖</h1>
         <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
@@ -51,7 +51,7 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
     <!--Img Col-->
     <div class="w-full lg:w-2/5">
       <!-- Big profile image for side bar (desktop) -->
-      <img src='/public/image/profile_web.jpg' class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
+      <img src="/public/image/profile_web.jpg" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
     </div>
 
 
