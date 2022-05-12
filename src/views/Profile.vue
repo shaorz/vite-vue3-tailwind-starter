@@ -2,8 +2,6 @@
 import ButtonRepo from '@/components/ButtonRepo.vue'
 </script>
 <template>
-<!--  <body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover" style="background-image:url('https://source.unsplash.com/1L71sPT5XKc');">-->
-
   <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
 
     <!--Main Col-->
@@ -29,7 +27,7 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
         <div class="pt-12 pb-8">
           <a
               target="_blank"
-              href="/home"
+              href="/"
               class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-500 focus:outline-none"
           >Back</a>
         </div>
@@ -56,25 +54,9 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
       <img src="/public/image/profile_web.jpg" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
     </div>
 
-
-    <!-- Pin to top right corner -->
     <div class="absolute top-0 right-0 h-12 w-18 p-4">
       <button class="js-change-theme focus:outline-none">🌙</button>
     </div>
 
   </div>
-
-
-
-<!--  </body>-->
 </template>
-
-<!--<script>-->
-<!--export default {-->
-<!--  name: "Profile"-->
-<!--}-->
-<!--</script>-->
-
-<!--<style scoped>-->
-
-<!--</style>-->
